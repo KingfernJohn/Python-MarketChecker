@@ -20,7 +20,7 @@ Windows:
 - run 'run.bat'
 
 Linux:
-- sudo git clone https://KingfernJohn/Python-MarketChecker.git
+- sudo git clone https://www.github.com/KingfernJohn/Python-MarketChecker.git
 - sudo pip install yahoo_fin
 - cd Python-MarketChecker
 - cd src
