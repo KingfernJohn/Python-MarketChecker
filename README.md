@@ -1,8 +1,8 @@
 # Python-MarketChecker
 
-desc. ...
-
-*.exe* soon!
+You can link your own script to the live data without much effort.
+The data is cached so that data is also available while the program is not running.
+With little knowledge of Python you can add or change stocks and cryptocurrencies.
 
 # Live-Data
 
@@ -10,7 +10,8 @@ desc. ...
 
 # Stored-Data
 
-![image](https://user-images.githubusercontent.com/49335210/174445905-92ff6bd4-3af0-42d6-94a4-2813af46f1d8.png) ![image](https://user-images.githubusercontent.com/49335210/174445926-c9935629-c906-43ed-a759-a367af11079d.png)
+![image](https://user-images.githubusercontent.com/49335210/174445905-92ff6bd4-3af0-42d6-94a4-2813af46f1d8.png) ![image](https://user-images.githubusercontent.com/49335210/174445926-c9935629-c906-43ed-a759-a367af11079d.png) ![image](https://user-images.githubusercontent.com/49335210/174445996-2af606ab-bb75-4962-9479-efa4f9ef8129.png) *Data stored as a float*
+
 
 # Installing
 
