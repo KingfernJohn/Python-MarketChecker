@@ -18,3 +18,12 @@ With little knowledge of Python you can add or change stocks and cryptocurrencie
 Windows:
 - run 'installer.bat'
 - run 'run.bat'
+
+Linux:
+- sudo git clone https://KingfernJohn/Python-MarketChecker.git
+- sudo pip install yahoo_fin
+- cd Python-MarketChecker
+- cd src
+- sudo python3 cc.py (Cryptos)
+  or
+- sudo python3 sc.py (Stocks)
