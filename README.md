@@ -12,4 +12,5 @@ Windows:
 
 # Stored-Data
 
-![image](https://user-images.githubusercontent.com/49335210/174445905-92ff6bd4-3af0-42d6-94a4-2813af46f1d8.png)
+![image](https://user-images.githubusercontent.com/49335210/174445905-92ff6bd4-3af0-42d6-94a4-2813af46f1d8.png) ![image](https://user-images.githubusercontent.com/49335210/174445926-c9935629-c906-43ed-a759-a367af11079d.png)
+
