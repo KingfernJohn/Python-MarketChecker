@@ -1,0 +1,81 @@
+from yahoo_fin import stock_info as si
+import os, time
+
+def loop_get_l():
+    gme_live = si.get_live_price("gme")
+    aapl_live = si.get_live_price("aapl")
+    msft_live = si.get_live_price("msft")
+    amzn_live = si.get_live_price("amzn")
+    tsla_live = si.get_live_price("tsla")
+    nvda_live = si.get_live_price("nvda")
+    meta_live = si.get_live_price("meta")
+    amc_live = si.get_live_price("amc")
+    unh_live = si.get_live_price("unh")
+
+
+    gme_live = str(gme_live)
+    aapl_live = str(aapl_live)
+    msft_live = str(msft_live)
+    amzn_live = str(amzn_live)
+    tsla_live = str(tsla_live)
+    nvda_live = str(nvda_live)
+    meta_live = str(meta_live)
+    amc_live = str(amc_live)
+    unh_live = str(unh_live)
+
+    gme_data = open("stocks/GME.price","w+")
+    aapl_data = open("stocks/AAPL.price","w+")
+    msft_data = open("stocks/MSFT.price","w+")
+    amzn_data = open("stocks/AMZN.price","w+")
+    tsla_data = open("stocks/TSLA.price","w+")
+    nvda_data = open("stocks/NVDA.price","w+")
+    meta_data = open("stocks/META.price","w+")
+    amc_data = open("stocks/AMC.price","w+")
+    unh_data = open("stocks/UNH.price","w+")
+
+    gme_data.write(gme_live)
+    aapl_data.write(aapl_live)
+    msft_data.write(msft_live)
+    amzn_data.write(amzn_live)
+    tsla_data.write(tsla_live)
+    nvda_data.write(nvda_live)
+    meta_data.write(meta_live)
+    amc_data.write(amc_live)
+    unh_data.write(unh_live)
+
+    gme_data.close()
+    aapl_data.close()
+    msft_data.close()
+    amzn_data.close()
+    tsla_data.close()
+    nvda_data.close()
+    meta_data.close()
+    amc_data.close()
+    unh_data.close()
+
+    os.system('cls')
+
+    print(f"[GME] {gme_live} USD")
+    print(f"[AAPL] {aapl_live} USD")
+    print(f"[MSFT] {msft_live} USD")
+    print(f"[AMZN] {amzn_live} USD")
+    print(f"[TSLA] {tsla_live} USD")
+    print(f"[NVDA] {nvda_live} USD")
+    print(f"[META] {meta_live} USD")
+    print(f"[AMC] {amc_live} USD")
+    print(f"[UNH] {unh_live} USD")
+
+    loop_get_l()
+
+
+print("[GME] Loading...")
+print("[AAPL] Loading...")
+print("[MSFT] Loading...")
+print("[AMZN] Loading...")
+print("[TSLA] Loading...")
+print("[NVDA] Loading...")
+print("[META] Loading...")
+print("[AMC] Loading...")
+print("[UNH] Loading...")
+
+loop_get_l()
